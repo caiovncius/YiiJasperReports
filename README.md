@@ -12,9 +12,9 @@ Import extension in main.php
 	...
 	'application.extensions.YiiJasperReports.*',
 )
-´´
+```
 And call in your Controller:
 ```php
 $report = new YiiJasperReport('/folder/id_report', array('param' => 'value'), 'pdf');
 $report->execute();
-´´
+```
