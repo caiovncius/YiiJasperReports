@@ -7,12 +7,12 @@ Simple execute Jasper Reports in your Application with Yii Frameworks.
 ### Usage:
 
 Import extension in main.php
-```
+```php
 'import'         => array(
 	...
 	'application.extensions.YiiJasperReports.*',
 )
-´´´
+´´
 And call in your Controller:
 ```php
 $report = new YiiJasperReport('/folder/id_report', array('param' => 'value'), 'pdf');
